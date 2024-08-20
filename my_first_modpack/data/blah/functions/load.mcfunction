@@ -1,4 +1,4 @@
-tellraw @a {"text": "Block replacement loaded","color": "#15ff00"}
+execute unless score showprompt dputility matches 1 run tellraw @a {"text": "Block replacement loaded","color": "#15ff00"}
 forceload add 9999 9999
 scoreboard objectives remove intern
 scoreboard objectives remove pos
