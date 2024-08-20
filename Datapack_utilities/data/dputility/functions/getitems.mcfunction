@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{display:{Name:'{"text":"Reload Stick","color":"#A100FF","underlined":true}'},Unbreakable:1b,reset,Enchantments:[{}]} 
