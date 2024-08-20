@@ -1,4 +1,3 @@
-scoreboard players reset @s ray
 summon marker ~ ~ ~ {Tags:["ray"]}
 execute anchored eyes rotated as @s run teleport @e[type=marker,limit=1,sort=nearest,tag=ray] ^ ^ ^ ~ ~
 tag @s add rayp
