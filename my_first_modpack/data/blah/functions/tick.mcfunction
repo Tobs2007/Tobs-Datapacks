@@ -1,5 +1,3 @@
-time set day 
-
 execute as @a[tag=block] at @s unless block ~ ~-3 ~ air run scoreboard players set @s pos 3
 execute as @a[tag=block] at @s unless block ~ ~-2 ~ air run scoreboard players set @s pos 2
 execute as @a[tag=block] at @s unless block ~ ~-1 ~ air run scoreboard players set @s pos 1
